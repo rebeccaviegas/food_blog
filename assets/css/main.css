@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
+
+.navContainer{
+    background-color:black;
+    height:60px;
+}
+
+
+#mainNav{
+    text-decoration: none;
+    color:white;
+    position:fixed;
+}
+
+#mainNav ul li{
+    display:inline-block;
+    list-style-type: none;
+    padding-left:10px;
+    padding-right:10px;
+    margin:auto;
+    text-transform:uppercase;
+    text-align: center;
+    vertical-align: middle;
+    line-height:60px;
+    text-decoration: none;
+}
+
+#mainNav ul li a{
+    font-family: "Oswald";
+}
+
+#mainNav ul li a:visited{
+    color:white;
+}
+
+#mainNav ul li a:hover{
+    color:rgba(255,255,255,0.7);
+    text-decoration: none;
+}
+
+.mainImageContainer{
+    background-image:url('../img/pizza_table.jpeg');
+    background-size:cover;
+    height:700px;
+    margin-top:-60px;
+    background-position: fixed;
+}
+
+.pageTitle{
+    position:absolute;
+    height:80px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top:40%;
+    font-family:"Homemade Apple";
+    font-size:80px;
+    color:white;
+    text-shadow:5px 5px 10px black;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.aboutUsContainer{
+    margin-top:50px;
+}
+
+
+.paraDesc{
+    font-family:"Open Sans";
+    padding:10px 40px;
+}
+
+.firstLine{
+    text-transform: uppercase;
+}
+
+.bannerContainer{
+    margin-top:40px;
+    height:300px;
+    background-color:black;
+    background-image:url('../img/lights_wine.jpg');
+    background-position:center;
+}
+
+.contactUs{
+    font-family:"Homemade Apple";
+    font-size:30px;
+    color:white;
+    text-shadow:5px 5px 10px black;
+}
+
+.contactUsContainer{
+    /* background-color:rgba(255,255,255,0.3);
+    height:300px; */
+}
+
+.pageHeading{
+    text-align:center;
+    font-size:40px;
+    color:white;
+    font-family:"Homemade Apple";
+    text-shadow:2px 2px 6px black;
+    padding-top:20px;
+}
