@@ -21,10 +21,15 @@
     font-family:"Oleo Script Swash Caps";
     font-size:120px;
 }
+
 #mainNav{
     text-decoration: none;
-    color:#f8b8b6;
+    color:#FF7610;
     position:fixed;
+    background-color:white;
+    width:28%;
+    z-index:99;
+    height:60px;
 }
 
 #mainNav ul li{
@@ -42,15 +47,16 @@
 
 #mainNav ul li a{
     font-family: "Oswald";
-    color:#f8b8b6;
+    color:rgb(206, 35, 129);
+    font-size:20px;
 }
 
 #mainNav ul li a:visited{
-    color:white;
+    color:rgb(206, 35, 129);
 }
 
 #mainNav ul li a:hover{
-    color:rgba(255,255,255,0.7);
+    color: lightslategrey;
     text-decoration: none;
 }
 
@@ -58,7 +64,7 @@
     background-image:url('../img/cupcake.jpeg');
     background-size:cover;
     height:700px;
-    margin-top:-90px;
+    margin-top:-100px;
     background-position:center;
 }
 
@@ -72,8 +78,8 @@
     top:35%;
     font-family:"Oswald";
     font-size:120px;
-    color:#f4f6f5;
-    text-shadow:5px 5px 6px rgba(0, 0, 0, 0.5);
+    color:#fff;
+    text-shadow:3px 3px 2px #52D5E2;
     letter-spacing: 15px;
     text-align: center;
 }
@@ -85,6 +91,34 @@ h1{
     text-shadow:5px 5px 10px black;
     letter-spacing: 25px;
     text-align: center;
+}
+
+.sectionTitle{
+    font-family:"Oleo Script Swash Caps";
+    font-size:50px;
+    text-align: center;
+    color:#52D5E2;
+}
+
+.sectionDesc{
+    padding:10px 40px;
+    font-family:"Open Sans";
+}
+
+.contactGrid{
+    height:170px;
+}
+
+.textBox{
+    background-color:#f9b9b9;
+}
+
+.contactGrid p {
+    text-align: center;
+    font-family: "Open Sans";
+    margin:auto;
+    font-size:17px;
+    vertical-align: middle;
 }
 
 
@@ -101,35 +135,19 @@ h1{
     text-transform: uppercase;
 }
 
-.bannerContainer{
-    margin-top:40px;
-    height:300px;
-    background-color:black;
-    background-image:url('../img/lights_wine.jpg');
-    background-position:center;
+
+#logoContainer img{
+    margin-top:20px;
+    margin-right:20px;
+    float:right;
 }
 
-.contactUs{
-    font-family:"Homemade Apple";
-    font-size:30px;
-    color:white;
-    text-shadow:10px 10px 10px black;
-}
-
-
-.pageHeading{
-    text-align:center;
-    font-size:40px;
-    color:white;
-    font-family:"Homemade Apple";
-    text-shadow:2px 2px 6px black;
-    padding-top:20px;
-}
 
 .gridView{
     /* margin-top:40px; */
     padding-top:20px;
-    background: linear-gradient(to right, #93f1ea, #f9b9b9);
+    /* background: linear-gradient(to right, #93f1ea, #f9b9b9); */
+    background-color:#49dad07c;
 }
 
 
@@ -146,5 +164,5 @@ h1{
 
 
 .items img{
-    border-radius: 10px 10px;
+    border-radius: 50% 50%;
 }
