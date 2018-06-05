@@ -1,15 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
 @import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps');
 
 .navContainer{
     background-color:black;
     height:60px;
 }
 
+.aboutUsSection{
+    height:200px;
+}
+
+.beginningTitle{
+    font-family:"Oleo Script Swash Caps";
+    font-size:120px;
+}
+
+.secondTitle{
+    font-family:"Oleo Script Swash Caps";
+    font-size:120px;
+}
 #mainNav{
     text-decoration: none;
-    color:white;
+    color:#f8b8b6;
     position:fixed;
 }
 
@@ -28,7 +42,7 @@
 
 #mainNav ul li a{
     font-family: "Oswald";
-    color:white;
+    color:#f8b8b6;
 }
 
 #mainNav ul li a:visited{
@@ -41,11 +55,11 @@
 }
 
 .mainImageContainer{
-    background-image:url('../img/pizza_table.jpeg');
+    background-image:url('../img/cupcake.jpeg');
     background-size:cover;
     height:700px;
-    margin-top:-60px;
-    background-position: fixed;
+    margin-top:-90px;
+    background-position:center;
 }
 
 .pageTitle{
@@ -55,27 +69,28 @@
     margin-right: auto;
     left: 0;
     right: 0;
-    top:40%;
-    font-family:"Homemade Apple";
-    font-size:80px;
-    color:white;
-    text-shadow:5px 5px 10px black;
-    letter-spacing: 10px;
+    top:35%;
+    font-family:"Oswald";
+    font-size:120px;
+    color:#f4f6f5;
+    text-shadow:5px 5px 6px rgba(0, 0, 0, 0.5);
+    letter-spacing: 15px;
     text-align: center;
 }
 
 h1{
+    font-family:"Oswald";
     font-size:40px;
-    font-family:"Homemade Apple";
-    text-align:center;
-    padding-top:20px;
+    color:white;
+    text-shadow:5px 5px 10px black;
+    letter-spacing: 25px;
+    text-align: center;
 }
 
 
 .aboutUsContainer{
     margin-top:50px;
 }
-
 
 .paraDesc{
     font-family:"Open Sans";
@@ -101,10 +116,6 @@ h1{
     text-shadow:10px 10px 10px black;
 }
 
-.contactUsContainer{
-    /* background-color:rgba(255,255,255,0.3);
-    height:300px; */
-}
 
 .pageHeading{
     text-align:center;
@@ -116,17 +127,24 @@ h1{
 }
 
 .gridView{
-    margin-top:40px;
+    /* margin-top:40px; */
+    padding-top:20px;
+    background: linear-gradient(to right, #93f1ea, #f9b9b9);
 }
 
-.items{
-    margin:10px;
-}
+
 
 .headingTitle{
     font-family:"Oswald";
     text-align: center;
-    letter-spacing:15px;
     text-transform:uppercase;
     font-size:20px;
+    color:rgb(206, 35, 129);
+    text-shadow:1px 1px 1px rgb(255, 255, 255);
+}
+
+
+
+.items img{
+    border-radius: 10px 10px;
 }
