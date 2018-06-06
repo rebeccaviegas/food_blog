@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
 @import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
 @import url('https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 .navContainer{
     background-color:black;
@@ -47,12 +48,12 @@
 
 #mainNav ul li a{
     font-family: "Oswald";
-    color:rgb(206, 35, 129);
+    color: rgb(184, 22, 22);
     font-size:20px;
 }
 
 #mainNav ul li a:visited{
-    color:rgb(206, 35, 129);
+    color: rgb(184, 22, 22);
 }
 
 #mainNav ul li a:hover{
@@ -78,8 +79,9 @@
     top:35%;
     font-family:"Oswald";
     font-size:120px;
-    color:#fff;
-    text-shadow:3px 3px 2px #52D5E2;
+    /* color:#52D5E2; */
+    color: rgb(184, 22, 22);
+    text-shadow:3px 3px 2px #fff;
     letter-spacing: 15px;
     text-align: center;
 }
@@ -93,6 +95,61 @@ h1{
     text-align: center;
 }
 
+.sectionContainer{
+    background-color:lavenderblush;
+    /* background-image:url('../img/biscotti.jpeg'); */
+    height:600px;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin-top:20px;
+}
+
+.firstBlock{
+    background-color:lavender;
+    background-image:url('../img/cupcakes_strawberry.jpeg');
+    height:300px;
+    background-origin:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    border-right:5px solid white;
+}
+
+.firstBlock2{
+    background-color:teal;
+    height:300px;
+    border-top:5px solid white;
+    background-image:url('../img/macarons.jpeg');
+    background-position:center;
+    border-right:5px solid white;
+}
+
+.menuBg .menuTitle{
+    color:white;
+}
+
+.itemTitle{
+    font-family:"Oswald";
+    font-size:20px;
+    text-align:center;
+    color: rgb(184, 22, 22);
+    background-color:rgba(255,255,255,0.7);
+    letter-spacing:5px;
+}
+
+.itemDesc{
+    font-family:"Raleway";
+    font-size:15px;
+    color:black;
+    font-weight:900;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.menuBg{
+    background-image:url('../img/texture.jpeg');
+    background-size:cover;
+}
 .sectionTitle{
     font-family:"Oleo Script Swash Caps";
     font-size:50px;
@@ -101,8 +158,9 @@ h1{
 }
 
 .sectionDesc{
+
     padding:10px 40px;
-    font-family:"Open Sans";
+    font-family:"Raleway";
 }
 
 .contactGrid{
