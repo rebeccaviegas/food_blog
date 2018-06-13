@@ -133,6 +133,7 @@ h1{
     font-size:20px;
     text-align:center;
     color: rgb(184, 22, 22);
+    /* color: rgb(34, 148, 158); */
     background-color:rgba(255,255,255,0.7);
     letter-spacing:5px;
 }
@@ -147,7 +148,8 @@ h1{
 }
 
 .menuBg{
-    background-image:url('../img/texture.jpeg');
+    /* background-image:url('../img/texture.jpeg'); */
+    background: linear-gradient(to bottom right,#f9b9b9, rgba(184, 22, 22, 0.7));
     background-size:cover;
 }
 .sectionTitle{
@@ -217,10 +219,26 @@ h1{
     font-size:20px;
     color:rgb(206, 35, 129);
     text-shadow:1px 1px 1px rgb(255, 255, 255);
+    max-width:250px;
 }
 
 
 
 .items img{
     border-radius: 50% 50%;
+}
+
+
+.contactSection{
+    /* height:300px; */
+    /* background-color:#f9b9b9; */
+    margin-top:40px;
+}
+
+.contactSection p {
+    text-align:center;
+}
+
+.theStore{
+    margin:auto;
 }
