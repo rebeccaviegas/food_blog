@@ -4,6 +4,12 @@
 @import url('https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+
+html{
+    max-width:1200px;
+    margin:auto;
+}
+
 .navContainer{
     background-color:black;
     height:60px;
@@ -241,4 +247,9 @@ h1{
 
 .theStore{
     margin:auto;
+}
+
+.footer{
+    height:200px;
+    border-top:2px solid rgb(206, 35, 129);
 }
